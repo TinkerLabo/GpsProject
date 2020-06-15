@@ -1,0 +1,6 @@
+/opt/kPrj/img/
+/opt/log/
+/opt/kPrj/data/
+result.tsv
+*.gz
+docker-compose.yml
