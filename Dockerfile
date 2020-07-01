@@ -33,9 +33,9 @@ RUN pip install requests
 
 RUN pip install selenium
 RUN apt-get install -y wget libfontconfig
-RUN mkdir -p /home/root/src && cd $_ && wget https://bitbucket.org/ariya/phantomjs/downloads/phantomjs-2.1.1-linux-x86_64.tar.bz2
-RUN cd /home/root/src && tar jxvf phantomjs-2.1.1-linux-x86_64.tar.bz2
-RUN cd /home/root/src/phantomjs-2.1.1-linux-x86_64/bin && cp phantomjs /usr/local/bin/
+#RUN mkdir -p /home/root/src && cd $_ && wget https://bitbucket.org/ariya/phantomjs/downloads/phantomjs-2.1.1-linux-x86_64.tar.bz2
+#RUN cd /home/root/src && tar jxvf phantomjs-2.1.1-linux-x86_64.tar.bz2
+#RUN cd /home/root/src/phantomjs-2.1.1-linux-x86_64/bin && cp phantomjs /usr/local/bin/
 # ユーザ作成
 RUN groupadd web
 RUN useradd -d /home/python -m python
